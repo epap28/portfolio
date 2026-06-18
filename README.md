@@ -1,16 +1,16 @@
 # Portfolio Edouard Papillon
 
-Portfolio statique interactif pour GitHub Pages.
+Interactive static portfolio for GitHub Pages.
 
-## Lancer en local
+## Run Locally
 
 ```bash
 npm run dev
 ```
 
-Puis ouvrir `http://localhost:5173`.
+Then open `http://localhost:5173`.
 
-## Publier sur GitHub Pages
+## Publish to GitHub Pages
 
 ```bash
 git init
@@ -21,4 +21,4 @@ git remote add origin https://github.com/<user>/portfolio-edouard-papillon.git
 git push -u origin main
 ```
 
-Dans GitHub, activer Pages avec `Deploy from a branch`, branche `main`, dossier `/root`.
+In GitHub, enable Pages with `Deploy from a branch`, branch `main`, folder `/root`.

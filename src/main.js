@@ -9,55 +9,55 @@ const panelMetrics = document.querySelector("#panel-metrics");
 
 const focusContent = {
   profile: {
-    label: "Profil",
-    title: "Un data engineer qui pense comme un ingenieur terrain.",
+    label: "Profile",
+    title: "A data engineer who thinks like a field engineer.",
     body:
-      "J'ai appris l'informatique en autonomie, puis je l'ai appliquee a des contextes concrets: automatisation offshore, pipelines produit, Oracle Database, Vector Search et Agentic AI.",
-    metrics: ["Autodidacte", "Data + mecanique", "Problem-solving"],
+      "I taught myself software and data engineering, then applied it to concrete environments: offshore automation, product data pipelines, Oracle Database, Vector Search and Agentic AI.",
+    metrics: ["Self-taught", "Data + mechanics", "Problem-solving"],
     position: [-1.9, 1.15, 0.2],
     color: 0x4fd6c7,
   },
   projects: {
-    label: "Projets",
-    title: "Des pipelines qui remplacent les gestes repetitifs par un flux fiable.",
+    label: "Projects",
+    title: "Pipelines that replace repetitive work with reliable flow.",
     body:
-      "Chez Sagemcom, j'ai construit un pipeline Python et SQL capable de transformer Excel, PDF et XML en donnees exploitables, puis j'ai automatise les traitements avec Jenkins.",
+      "At Sagemcom, I built a Python and SQL pipeline able to transform Excel, PDF and XML inputs into usable data, then automated processing with Jenkins.",
     metrics: ["Python", "SQLAlchemy", "Jenkins"],
     position: [1.75, 0.9, -0.35],
     color: 0xf5c85b,
   },
   systems: {
-    label: "Systemes",
-    title: "Mecanique, cloud et database dans la meme grille de lecture.",
+    label: "Systems",
+    title: "Mechanics, cloud and databases in the same mental model.",
     body:
-      "Mon background mecanique m'aide a raisonner en contraintes, flux et optimisation. Aujourd'hui, je l'applique a Oracle Database, OCI, PL/SQL et aux architectures data.",
+      "My mechanical engineering background helps me reason through constraints, flows and optimization. Today I apply it to Oracle Database, OCI, PL/SQL and data architectures.",
     metrics: ["Oracle DB", "OCI", "Fluid mechanics"],
     position: [0.4, -1.25, 0.15],
     color: 0x9dd85d,
   },
   ai: {
     label: "Applied AI",
-    title: "L'IA utile commence par une donnee propre et structuree.",
+    title: "Useful AI starts with clean, structured data.",
     body:
-      "Je travaille sur Vector Search et Agentic AI avec une conviction simple: les agents deviennent vraiment puissants quand les pipelines et les bases sont robustes.",
+      "I work on Vector Search and Agentic AI with a simple conviction: agents become truly powerful when pipelines and databases are robust.",
     metrics: ["Vector Search", "Agentic AI", "PyTorch"],
     position: [-0.6, 0.2, -1.65],
     color: 0xa78bfa,
   },
   automation: {
     label: "Automation",
-    title: "Automatiser sans perdre le sens du terrain.",
+    title: "Automating without losing touch with the field.",
     body:
-      "Chez DORIS Engineering, j'ai developpe des outils VBA pour le dimensionnement offshore. Le point commun avec la data: enlever la friction sans masquer la logique metier.",
+      "At DORIS Engineering, I developed VBA tools for offshore sizing. The common thread with data engineering: remove friction without hiding the business logic.",
     metrics: ["VBA", "Offshore sizing", "Reliability"],
     position: [2.35, -0.85, 0.95],
     color: 0xff7b6e,
   },
   contact: {
     label: "Contact",
-    title: "Disponible pour des sujets data, AI appliquee et optimisation.",
+    title: "Available for data, applied AI and optimization topics.",
     body:
-      "Je cherche des environnements ou les idees innovantes rencontrent des problemes reels: data platforms, automatisation, agents IA et operations plus intelligentes.",
+      "I am looking for environments where innovative ideas meet real problems: data platforms, automation, AI agents and smarter operations.",
     metrics: ["Paris", "Panama-ready", "French / English"],
     position: [-2.15, -0.95, 1.05],
     color: 0x4fd6c7,
