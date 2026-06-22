@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-labelledby="title desc">
+  <title id="title">Product data pipeline</title>
+  <desc id="desc">A dark technical illustration of files flowing into a database and clean data output.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#15171b"/>
+      <stop offset="1" stop-color="#1f261f"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1">
+      <stop offset="0" stop-color="#4fd6c7"/>
+      <stop offset="1" stop-color="#9dd85d"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="900" height="560" rx="28" fill="url(#bg)"/>
+  <path d="M96 430 C220 330 296 456 430 336 C552 226 660 260 804 122" fill="none" stroke="#4fd6c7" stroke-width="4" opacity=".22"/>
+  <g opacity=".18" stroke="#f4f1e8">
+    <path d="M90 90h720M90 180h720M90 270h720M90 360h720M90 450h720"/>
+    <path d="M150 70v410M300 70v410M450 70v410M600 70v410M750 70v410"/>
+  </g>
+  <g transform="translate(96 138)">
+    <rect width="150" height="90" rx="14" fill="#22252a" stroke="#4fd6c7" opacity=".95"/>
+    <text x="24" y="38" fill="#f4f1e8" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Excel</text>
+    <text x="24" y="66" fill="#b7b2a5" font-family="Inter, Arial, sans-serif" font-size="16">PDF / XML</text>
+  </g>
+  <g transform="translate(362 112)">
+    <rect width="176" height="142" rx="18" fill="#111411" stroke="url(#accent)" stroke-width="3"/>
+    <circle cx="88" cy="70" r="42" fill="none" stroke="#f5c85b" stroke-width="10" stroke-dasharray="48 20"/>
+    <text x="46" y="132" fill="#f4f1e8" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Transform</text>
+  </g>
+  <g transform="translate(654 138)">
+    <ellipse cx="76" cy="18" rx="76" ry="18" fill="#26302b" stroke="#9dd85d"/>
+    <rect x="0" y="18" width="152" height="94" fill="#26302b" stroke="#9dd85d"/>
+    <ellipse cx="76" cy="112" rx="76" ry="18" fill="#26302b" stroke="#9dd85d"/>
+    <text x="40" y="72" fill="#f4f1e8" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">SQL</text>
+  </g>
+  <g fill="none" stroke="url(#accent)" stroke-width="7" stroke-linecap="round" filter="url(#glow)">
+    <path d="M250 183h92"/>
+    <path d="M540 183h86"/>
+  </g>
+  <g transform="translate(238 352)">
+    <rect width="424" height="82" rx="16" fill="#101114" stroke="#f5c85b"/>
+    <rect x="28" y="24" width="92" height="12" rx="6" fill="#4fd6c7"/>
+    <rect x="146" y="24" width="78" height="12" rx="6" fill="#9dd85d"/>
+    <rect x="252" y="24" width="118" height="12" rx="6" fill="#ff7b6e"/>
+    <rect x="28" y="50" width="250" height="10" rx="5" fill="#f4f1e8" opacity=".38"/>
+  </g>
+</svg>

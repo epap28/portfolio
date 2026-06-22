@@ -25,25 +25,18 @@
     </script>
   </head>
   <body>
-    <canvas id="space" aria-hidden="true"></canvas>
     <div class="texture" aria-hidden="true"></div>
 
     <header class="topbar" aria-label="Main navigation">
       <a class="brand" href="#home" aria-label="Back to home">
         <span>EP</span>
       </a>
-      <nav class="nav-pills" aria-label="Portfolio sections">
-        <button class="nav-pill is-active" type="button" data-focus="profile">Profile</button>
-        <button class="nav-pill" type="button" data-focus="projects">Projects</button>
-        <button class="nav-pill" type="button" data-focus="systems">Systems</button>
-        <button class="nav-pill" type="button" data-focus="contact">Contact</button>
-      </nav>
     </header>
 
     <main id="home">
       <section class="hero" aria-labelledby="hero-title">
         <div class="hero-copy">
-          <p class="eyebrow">Data Engineering / Applied AI / Mechanical thinking</p>
+          <p class="eyebrow">Data Engineering / Applied AI / Outside-the-box thinking</p>
           <h1 id="hero-title">Edouard Papillon</h1>
           <p class="hero-lead">
             Data engineer shaped by mechanical engineering: I build clean pipelines,
@@ -51,125 +44,105 @@
             systems.
           </p>
           <div class="hero-actions" aria-label="Main actions">
-            <a class="button button-primary" href="#work">Explore my background</a>
-            <a class="button button-ghost" href="mailto:edouardpapillon28@gmail.com">Contact me</a>
+            <a class="button button-primary" href="#explore">Explore my background</a>
+            <a class="button button-ghost" href="#projects">My projects</a>
+            <a
+              class="icon-link"
+              href="https://www.linkedin.com/in/edouardpapillon/"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="LinkedIn profile"
+            >
+              <svg aria-hidden="true" viewBox="0 0 24 24">
+                <path
+                  d="M4.98 3.5C4.98 4.88 3.86 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.5 8h4v15h-4V8zm7.5 0h3.84v2.05h.05c.54-1.02 1.85-2.1 3.8-2.1 4.06 0 4.81 2.67 4.81 6.15V23h-4v-7.89c0-1.88-.03-4.3-2.62-4.3-2.62 0-3.02 2.05-3.02 4.17V23h-4V8z"
+                />
+              </svg>
+            </a>
+            <a
+              class="icon-link"
+              href="https://github.com/epap28"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="GitHub profile"
+            >
+              <svg aria-hidden="true" viewBox="0 0 24 24">
+                <path
+                  d="M12 .5C5.65.5.5 5.65.5 12c0 5.1 3.29 9.4 7.86 10.93.58.1.79-.25.79-.56v-2.13c-3.2.7-3.87-1.36-3.87-1.36-.52-1.34-1.28-1.7-1.28-1.7-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.2 1.77 1.2 1.03 1.77 2.71 1.26 3.37.96.1-.75.4-1.26.73-1.55-2.55-.29-5.23-1.28-5.23-5.68 0-1.25.45-2.28 1.19-3.08-.12-.29-.52-1.46.11-3.04 0 0 .97-.31 3.17 1.18A10.9 10.9 0 0 1 12 6.08c.98 0 1.96.13 2.88.39 2.2-1.49 3.17-1.18 3.17-1.18.63 1.58.23 2.75.11 3.04.74.8 1.19 1.83 1.19 3.08 0 4.42-2.69 5.39-5.25 5.67.42.36.78 1.07.78 2.16v3.13c0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"
+                />
+              </svg>
+            </a>
           </div>
         </div>
-
-        <aside class="focus-panel" aria-live="polite" aria-label="Interactive focus">
-          <p class="panel-kicker" id="panel-kicker">Profile</p>
-          <h2 id="panel-title">A data engineer who thinks like a field engineer.</h2>
-          <p id="panel-body">
-            I taught myself software and data engineering, then applied it to concrete
-            environments: offshore automation, product data pipelines, Oracle Database,
-            Vector Search and Agentic AI.
-          </p>
-          <div class="panel-metrics" id="panel-metrics" aria-label="Indicators">
-            <span>Python</span>
-            <span>PL/SQL</span>
-            <span>Automation</span>
-          </div>
-        </aside>
       </section>
 
-      <section class="signal-strip" aria-label="Key signals">
-        <article>
-          <span class="signal-mark"></span>
-          <strong>Oracle Graduate Program</strong>
-          <p>Data Engineering, Applied AI, Vector Search, PL/SQL, OCI.</p>
-        </article>
-        <article>
-          <span class="signal-mark signal-mark-alt"></span>
-          <strong>Self-taught software path</strong>
-          <p>Progress through projects, business needs and fast experimentation.</p>
-        </article>
-        <article>
-          <span class="signal-mark signal-mark-warm"></span>
-          <strong>Mechanical engineering DNA</strong>
-          <p>Fluids, sizing, modeling and attention to real-world constraints.</p>
-        </article>
-      </section>
-
-      <section class="section-shell" id="work" aria-labelledby="work-title">
-        <div class="section-heading">
-          <p class="eyebrow">Experience</p>
-          <h2 id="work-title">Data that leaves the desk and gets back to the field.</h2>
+      <section class="explore-section" id="explore" aria-labelledby="explore-title">
+        <div class="explore-heading">
+          <p class="eyebrow">Interactive map</p>
+          <h2 id="explore-title">Move through the space, click a node, zoom into the story.</h2>
         </div>
 
-        <div class="timeline">
-          <article class="timeline-item">
-            <div class="timeline-date">Since Sept. 2025</div>
-            <div>
-              <h3>Graduate Program - Data Engineer & Applied AI</h3>
-              <p class="company">Oracle, Paris</p>
-              <p>
-                Deployed AI solutions inside Oracle Database: Vector Search, Agentic AI,
-                Python and PL/SQL pipelines, database administration and OCI management.
-              </p>
+        <div class="space-stage" id="space-stage">
+          <canvas id="space" aria-label="Interactive 3D portfolio map"></canvas>
+          <div class="node-labels" aria-label="Interactive portfolio focuses"></div>
+
+          <aside class="focus-panel" aria-live="polite" aria-label="Interactive focus">
+            <div class="panel-summary">
+              <p class="panel-kicker" id="panel-kicker"></p>
+              <h3 id="panel-title"></h3>
+              <p id="panel-body"></p>
+              <div class="panel-metrics" id="panel-metrics" aria-label="Indicators"></div>
             </div>
-          </article>
-          <article class="timeline-item">
-            <div class="timeline-date">March - August 2025</div>
-            <div>
-              <h3>Data Engineer / Data Analyst - Product Environment</h3>
-              <p class="company">Sagemcom, Bois-Colombes</p>
-              <p>
-                Built a custom pipeline with Python, SQLAlchemy, MySQL, openpyxl,
-                pdfplumber and XML conversion, then automated processing with Jenkins.
-              </p>
-            </div>
-          </article>
-          <article class="timeline-item">
-            <div class="timeline-date">April - August 2024</div>
-            <div>
-              <h3>Automation Tools Developer</h3>
-              <p class="company">DORIS Engineering, Paris</p>
-              <p>
-                Developed VBA tools to automate offshore platform sizing, with direct
-                application of fluid mechanics.
-              </p>
-            </div>
-          </article>
+            <div class="panel-detail-list" id="panel-details"></div>
+            <button class="button button-ghost unzoom-button" id="unzoom-button" type="button">
+              Back to overview
+            </button>
+          </aside>
         </div>
       </section>
 
-      <section class="section-shell compact" aria-labelledby="skills-title">
+      <section class="projects-section" id="projects" aria-labelledby="projects-title">
         <div class="section-heading">
-          <p class="eyebrow">Stack</p>
-          <h2 id="skills-title">The tools I use to make systems flow better.</h2>
+          <p class="eyebrow">Projects</p>
+          <h2 id="projects-title">Practical systems built from business friction, data and engineering constraints.</h2>
         </div>
-        <div class="skill-grid">
-          <article class="skill-card">
-            <h3>Data pipelines</h3>
-            <p>Python, Pandas, SQLAlchemy, PL/SQL, Jenkins, Fivetran, GoldenGate, dbt.</p>
-          </article>
-          <article class="skill-card">
-            <h3>Platforms</h3>
-            <p>Oracle Database, MySQL, Snowflake, Databricks, Apache Spark, OCI.</p>
-          </article>
-          <article class="skill-card">
-            <h3>Applied AI</h3>
-            <p>Vector Search, Agentic AI, Scikit-learn, PyTorch, experimentation ML.</p>
-          </article>
-          <article class="skill-card">
-            <h3>Mechanical roots</h3>
-            <p>Fluid mechanics, CAD, material strength, MATLAB modeling.</p>
-          </article>
-        </div>
-      </section>
 
-      <section class="section-shell compact" aria-labelledby="mindset-title">
-        <div class="section-heading">
-          <p class="eyebrow">Mindset</p>
-          <h2 id="mindset-title">What I bring beyond the stack.</h2>
-        </div>
-        <div class="mindset-grid">
-          <p>Proactivity</p>
-          <p>Attention to detail</p>
-          <p>Versatility</p>
-          <p>Problem-solving</p>
-          <p>Self-directed learning</p>
-          <p>Out-of-the-box ideas</p>
+        <div class="project-grid">
+          <a class="project-card" href="./projects/product-data-pipeline.html">
+            <img
+              src="./assets/projects/product-data-pipeline.svg"
+              alt="Flow diagram representing a product data pipeline"
+            />
+            <div class="project-card-body">
+              <span>Python / SQL / Jenkins</span>
+              <h3>Product Data Pipeline</h3>
+              <p>Transforming Excel, PDF and XML inputs into reliable product data.</p>
+            </div>
+          </a>
+
+          <a class="project-card" href="./projects/vector-search-ai.html">
+            <img
+              src="./assets/projects/vector-search-ai.svg"
+              alt="Vector search network connected to a database"
+            />
+            <div class="project-card-body">
+              <span>Oracle / Vector Search / AI</span>
+              <h3>Applied AI Search System</h3>
+              <p>Exploring how clean data, vectors and agentic workflows make AI useful.</p>
+            </div>
+          </a>
+
+          <a class="project-card" href="./projects/offshore-sizing-automation.html">
+            <img
+              src="./assets/projects/offshore-sizing-automation.svg"
+              alt="Offshore platform sizing dashboard concept"
+            />
+            <div class="project-card-body">
+              <span>VBA / Mechanics / Automation</span>
+              <h3>Offshore Sizing Automation</h3>
+              <p>Automating engineering calculations while keeping physical constraints visible.</p>
+            </div>
+          </a>
         </div>
       </section>
 
@@ -183,8 +156,6 @@
         </a>
       </section>
     </main>
-
-    <div class="node-labels" aria-label="Interactive portfolio focuses"></div>
     <script type="module" src="./src/main.js"></script>
   </body>
 </html>

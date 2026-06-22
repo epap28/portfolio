@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-labelledby="title desc">
+  <title id="title">Offshore sizing automation</title>
+  <desc id="desc">A technical offshore platform and calculation dashboard illustration.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#121820"/>
+      <stop offset="1" stop-color="#171411"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" x2="1">
+      <stop offset="0" stop-color="#4fd6c7"/>
+      <stop offset="1" stop-color="#1b5d65"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="560" rx="28" fill="url(#bg)"/>
+  <path d="M0 396 C126 356 208 432 332 390 C470 344 548 430 678 386 C790 348 836 378 900 358 L900 560 L0 560 Z" fill="url(#sea)" opacity=".26"/>
+  <g stroke="#4fd6c7" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M218 364h282"/>
+    <path d="M260 364l-46 110"/>
+    <path d="M456 364l56 110"/>
+    <path d="M306 364l-16 110"/>
+    <path d="M408 364l24 110"/>
+    <path d="M250 424h232"/>
+    <path d="M284 298h154v66H284z"/>
+    <path d="M324 298v-58h74v58"/>
+  </g>
+  <g transform="translate(560 128)">
+    <rect width="218" height="202" rx="18" fill="#101114" stroke="#f5c85b"/>
+    <text x="24" y="42" fill="#f4f1e8" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="800">Sizing Tool</text>
+    <rect x="24" y="72" width="170" height="12" rx="6" fill="#4fd6c7"/>
+    <rect x="24" y="102" width="104" height="12" rx="6" fill="#9dd85d"/>
+    <rect x="24" y="132" width="146" height="12" rx="6" fill="#ff7b6e"/>
+    <path d="M32 172h154" stroke="#f4f1e8" opacity=".28"/>
+    <text x="24" y="188" fill="#b7b2a5" font-family="Inter, Arial, sans-serif" font-size="14">constraints visible</text>
+  </g>
+  <g fill="#f5c85b" opacity=".9">
+    <circle cx="216" cy="364" r="8"/>
+    <circle cx="500" cy="364" r="8"/>
+    <circle cx="260" cy="424" r="6"/>
+    <circle cx="482" cy="424" r="6"/>
+  </g>
+  <g stroke="#f4f1e8" opacity=".12">
+    <path d="M102 104h260M102 140h180M102 176h220"/>
+    <path d="M76 474h750"/>
+  </g>
+</svg>
